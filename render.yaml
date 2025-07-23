@@ -3,7 +3,7 @@ services:
     name: chat-app-backend
     env: java
     rootDir: chat-app-backend
-    buildCommand: ./mvnw clean install
+    buildCommand: mvn clean install
     startCommand: java -jar target/chat-app-backend-0.0.1-SNAPSHOT.jar
     branch: main
     repo: https://github.com/VaibhavMali09/Chat-App
